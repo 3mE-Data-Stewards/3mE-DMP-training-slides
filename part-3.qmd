@@ -50,7 +50,7 @@ If it's not clear after part 3, shame on me
 
 ## Plan
 
-**Lecture**
+**Lecture** (right now)
 
 - Reminder of important bits
 - Archiving/publishing data and code
@@ -254,7 +254,7 @@ Image: https://book.fosteropenscience.eu/
 
 **C**ollective benefit - inclusive development and equitable outcomes  
 **A**uthority to control - Rights, interests, and governance  
-**R**esponsibility - respect, reciprocity, and trust
+**R**esponsibility - respect, reciprocity, and trust  
 **E**thics - minimising harm and maximising benefit
 
 ::: {style="position: fixed; font-size: x-small; font-weight: lighter; bottom: 0; right: 0;"}
@@ -279,6 +279,7 @@ JoKalliauer; foter, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0
 
 - Zenodo
 - 4TU.ResearchData
+- OSF
 - DANS
 - IDR
 - NOMAD
@@ -291,9 +292,11 @@ JoKalliauer; foter, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0
 ::: {.column}
 #### NOT legitimate repositories
 
-- GitHub (can be connected to 4TU and Zenodo)
+- GitHub/Lab (can be connected to 4TU and Zenodo)
 - ResearchGate/Academia-not-edu
 - Personal website
+
+<br>
 
 . . .
 
@@ -314,7 +317,7 @@ JoKalliauer; foter, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0
   - restricted access
 - DOI + citation statement
 - track usage (downloads, views, citation)
-- figshare in a TUDelft wrapper
+- figshare in a TUDelft wrapper (for now...)
 
 
 ## Publishing software
@@ -341,7 +344,7 @@ Bazuine, Merlijn. (2021). TU Delft Guidelines on Research Software: Licensing, R
 
 ## Publishing software
 
-### Commercial vs. open source
+**Commercial vs. open source**
 
 Can co-exist (e.g. RStudio, NextCloud, ownCloud, Linux distros, WordPress)
 
@@ -400,15 +403,15 @@ By Marwick et al. 2017 (<https://doi.org/10.31235/osf.io/72n8g>)
 
 NOT everything everywhere all at once - start small
 
-- transparency
+- **transparency**
   - thorough documentation (data collection, methodology, analysis steps)
   - analysis outputs (from SPSS, MatLab, etc.)
   - raw data
-- research compendium
+- **research compendium**
   - documentation (README)
   - code
   - data (raw and processed)
-- executable article
+- **executable article**
   - documentation (README)
   - code
   - data

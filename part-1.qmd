@@ -2,7 +2,7 @@
 subtitle: 3me PhD students - Part 1
 format: 
     revealjs: 
-        footer: <https://doi.org/10.5281/zenodo.7298998> # change as new versions are rendered
+        footer: <https://doi.org/10.5281/zenodo.7298998> # change as new versions are rendered and archived
 ---
 
 # Overview
