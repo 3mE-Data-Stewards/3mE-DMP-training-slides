@@ -12,9 +12,9 @@ quarto render part-3.qmd --to revealjs # for part 3
 ```
 
 Slides for Part 1:
-- active: <https://bbartholdy.github.io/3mE-PhD-DMP-slides/part-1.html>
+- active: <https://3me-data-stewards.github.io/3mE-DMP-training-slides/part-1.html>
 - archive: https://doi.org/10.5281/zenodo.7298878
 
 Slides for Part 3 (under construction):
-- active: <https://bbartholdy.github.io/3mE-PhD-DMP-slides/part-3.html>
+- active: <https://3me-data-stewards.github.io/3mE-DMP-training-slides/part-3.html>
 - archive: NA
