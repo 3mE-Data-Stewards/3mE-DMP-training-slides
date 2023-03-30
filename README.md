@@ -17,4 +17,4 @@ Slides for Part 1:
 
 Slides for Part 3 (under construction):
 - active: <https://3me-data-stewards.github.io/3mE-DMP-training-slides/part-3.html>
-- archive: NA
+- archive: <https://doi.org/10.5281/zenodo.7712768>
