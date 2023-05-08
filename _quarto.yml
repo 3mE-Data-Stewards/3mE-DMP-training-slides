@@ -12,5 +12,5 @@ format:
           data-background-position: "0% 110%"
           data-background-size: "30%"
         #css: delft-theme.css
-        theme: tud-theme.scss
+        theme: [default, tud-theme.scss]
         #preview-links: true

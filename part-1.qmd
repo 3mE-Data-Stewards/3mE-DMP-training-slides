@@ -2,7 +2,7 @@
 subtitle: 3me PhD students - Part 1
 format: 
     revealjs: 
-        footer: <https://doi.org/10.5281/zenodo.7298998> # change as new versions are rendered and archived
+        footer: <https://doi.org/10.5281/zenodo.7908034> # change as new versions are rendered and archived
 ---
 
 # Overview
@@ -571,17 +571,17 @@ They CAN be connected with certified repositories
 
 Snapshots of the repo will be taken and assigned a DOI
 
-## Documentation {#documentation}
+## Documentation {.smaller}
 
 ### What to document
 
 - How to navigate the project
 - How to (re-)use code and data
 
-. . .
-
 Ask yourself: can someone with access to your project folder, reproduce exactly
 your findings?
+
+<!-- incremental code content with `. . .` is broken when located below subheaders (h3+) - when subheader comes immediately after slide header??? -->
 
 . . .
 
@@ -636,9 +636,9 @@ Several beneficial functionalities
 Illustrated by [Connie Clare](https://openworking.wordpress.com/2019/07/05/keep-calm-and-go-paperless-electronic-lab-notebooks-can-improve-your-research/)
 :::
 
-## Documentation {#documentation-4}
+## Documentation {#documentation-4 .scrollable}
 
-### README {.scrollable}
+### README
 
 File(s) (*.txt*, *.md*, *.pdf*) that are stored at the root of your project or data directory
 
@@ -838,15 +838,7 @@ Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10
 
 ## Archiving data/code {.center}
 
-As a PhD student you are resposible for:
-
->Ensuring that all data and code underlying completed PhD theses are
-appropriately documented and accessible for at least 10 years from the end
-of the research project, in accordance with the FAIR principles (Findable,
-Accessible, Interoperable and Reusable), unless there are valid reasons
-which make research data unsuitable for sharing.
-
-\- [3mE RDM Policy](https://d2k0ddhflgrk1i.cloudfront.net/Library/Themaportalen/RDM/Beleid/2020_3mE_Research_Data_Management_Policy.pdf)
+{{< include _archiving-policy.md >}}
 
 ## Publishing data/code 
 
@@ -953,7 +945,7 @@ Can co-exist (e.g. RStudio, NextCloud, ownCloud, Linux distros)
 
 :::: {.columns}
 
-::: {.column}
+::: {.column .nonincremental}
 [**Part 1**]{style="opacity: 0.3;"}
 
 - [Intro to research data management]{style="opacity: 0.3;"}
@@ -964,8 +956,8 @@ Can co-exist (e.g. RStudio, NextCloud, ownCloud, Linux distros)
 
 **Part 2**
 
-- Applying what you learned
-- Discussing with supervisor (and data steward) and completing the DMP
+- [Applying what you learned]{.fragment}
+- [Discussing with supervisor (and data steward) and completing the DMP]{.fragment}
 
 :::
 
@@ -979,3 +971,32 @@ Can co-exist (e.g. RStudio, NextCloud, ownCloud, Linux distros)
 
 :::
 ::::
+
+## Where can you get help?
+
+### 3mE Data Stewards
+
+:::: {.columns}
+
+::: {.column}
+
+![](https://d2k0ddhflgrk1i.cloudfront.net/_processed_/a/1/csm_Yasemin%20T%C3%BCrkyilmaz_2019_159f3580d5.webp){width="300"}
+
+[Yasemin Türkyilmaz-van der Velden](https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact/yasemin-turkyilmaz-van-der-velden)
+
+:::
+
+::: {.column}
+
+![](https://d2k0ddhflgrk1i.cloudfront.net/_processed_/2/a/csm_avatar_a441d85745.webp){width="241"}
+
+[Bjørn Bartholdy](https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact/bjoern-bartholdy)
+
+:::
+::::
+
+datasteward-3mE@tudelft.nl
+
+
+
+
