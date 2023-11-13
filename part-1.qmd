@@ -46,7 +46,7 @@ Interim Data Steward at 3mE
 
 . . .
 
-PhD student, 5th year[...ish]{.fragment}
+PhD student, ~~5th year~~6th year
 
 . . .
 
@@ -54,25 +54,23 @@ PhD student, 5th year[...ish]{.fragment}
 Did research data management training for my own PhD
 :::
 
-## Who am I to tell you what to do? {auto-animate=true .center}
+## Who am I to tell you what to do? {.center}
 
 Interim Data Steward at 3mE
 
-PhD student, 5th year...ish
+PhD student, ~~5th year~~6th year
 
 ::: {data-id="text1"}
 Did [not take]{style="color: red;"} research data management training for my own PhD
 :::
 
-## Who am I to tell you what to do? {auto-animate="false" .center}
+## Who am I to tell you what to do? {.center}
 
 Interim Data Steward at 3mE
 
-PhD student, 5th year...ish
+PhD student, ~~5th year~~6th year
 
-::: {data-id="text1"}
 Did [not take]{style="color: red;"} research data management training for my own PhD
-:::
 
 Did regret not doing the training... Learned the importance of RDM the hard way...
 
@@ -86,13 +84,14 @@ Did regret not doing the training... Learned the importance of RDM the hard way.
 
 - Intro to research data management
     + policy requirements
-    + processing personal data
+    + available infrastructure
 - Hands-on experience with DMP(online)
 
 
 **Part 2**
 
-- Discussing with supervisor (and data steward) and completing the DMP
+- Apply what you learned to your daily workflow
+- Complete the DMP in collaboration with supervisor (and Data Steward, if needed)
 
 :::
 
@@ -121,9 +120,22 @@ Did regret not doing the training... Learned the importance of RDM the hard way.
 
 - Personal data considerations
 
-# Data Management Plan {background-color="#00A6D6"}
+# Before the project {background-color="#00A6D6" background-image="img/data-management-plan-with-text.jpg" background-size="56%" background-position="right" aria-label="Person looking scared saying 'Oh no!! My computer crased. I lost all the data.' Another person standing next to them looking confident while holding a paper with DMP written on the back saying 'Good thing I had a plan! The data is all backed up!'"}
 
-## What? {.scrollable}
+::: {.background-caption style="right: 100px; bottom: 0px;"}
+This illustration is created by Scriberia with The Turing Way community.  
+Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+:::
+
+## The plan!
+
+![GIPHY](https://media1.giphy.com/media/xUySTOigOUHucl3rfW/giphy.gif?cid=6c09b952aa584b9ad189768339670b60fc66db2bc4abca39&rid=giphy.gif&ct=g "title")
+
+## The plan!
+
+{{< include _rdm-diagram.md >}}
+
+## Data management plan (DMP)
 
 Document describing what will happen with...
 
@@ -148,39 +160,6 @@ It also determines what happens to code/data after the project
 \- [Queensland University of Technology](https://www.mopp.qut.edu.au/D/D_02_08.jsp#D_02_08.10.mdoc)
 
 
-## The plan!
-
-```{dot}
-digraph G {
-
-    subgraph cluster_0 {
-        color=darkgrey;
-        style=filled;
-        fillcolor=lightgrey
-        node [label="test"] D;
-        node [label="test2"] B;
-        node [label="test3"] C;
-
-        label = "Analysis"
-
-    }
-
-  A [label="Conceptualisation"]
-  B [label="Documentation" shape=note]
-  C [label="Data Storage" shape=cylinder]
-  D [label="Version control"]
-  E [label="Backups" shape=box]
-  F [label="Publication"]
-  G [label="Security"]
-  H [label="DMP"]
-  
-  A -> H -> {C,D,B} -> F
-  C -> E
-  C -> G
-
-}
-```
-
 
 ## DMPonline {.center}
 
@@ -202,7 +181,8 @@ Here, you can:
 
 For more instructions, see [here](https://www.tudelft.nl/en/library/research-data-management/r/plan/dmponline/dmponline).
 
-# During the project {background-color="#00A6D6" background-image="img/rdm-storage.jpg" background-size="60%" background-position="right" aria-label="Person looking in a closet with various books, folders, locked boxes. Speachbox saying data from last year?"}
+
+# During the project {background-color="#00A6D6" background-image="img/rdm-storage.jpg" background-size="56%" background-position="right" aria-label="Person looking in a closet with various books, folders, locked boxes. Speachbox saying data from last year?"}
 
 ::: {.background-caption style="right: 100px; bottom: 0px;"}
 This illustration is created by Scriberia with The Turing Way community.  
@@ -330,6 +310,7 @@ Other cloud solutions
     <li> ❌ Account deleted shortly after researcher leaves
 </ul>
 
+
 ## Backups {#data-backup .center}
 
 3-2-1 backup rule-of-thumb
@@ -354,11 +335,15 @@ Other cloud solutions
 - End-to-end encryption up to 2 GB
 
 
-## Project/data organisation
+## Project structure
 
-Look familiar?
+Projects should be contained within folders in a meaningful place
 
-![](img/messy-structure.png)
+<ul style="list-style-type: none;">
+    <li> ✔️ Could be in home directory (`~/Documents/Project_name`)  </li>
+    <li> ✔️ Could be in the cloud (`OneDrive/Project_name`) </li>
+    <li> ❌ NOT on the Desktop </li>
+</ul>
 
 . . .
 
@@ -371,32 +356,6 @@ and come back and know what everything is?
 Spend some time thinking about how you will organise yourself.
 
 Your future self will thank you...
-
-## Project structure
-
-Projects should be contained within folders in a meaningful place
-
-```
-📁 project_name
-    📄 README
-    📁data
-      📄 raw-data_exp01.csv
-      📄 raw-data_exp02.csv  
-    📁analysis
-      📄 analysis-script.R
-    📁reports
-      📄 results-of-analysis.Rmd
-    📁publication
-      📄 manuscript_v1.docx
-```
-
-. . .
-
-<ul style="list-style-type: none;">
-    <li> ✔️ Could be in home directory (`~/Documents/Project_name`)  </li>
-    <li> ✔️ Could be in the cloud (`OneDrive/Project_name`) </li>
-    <li> ❌ NOT on the Desktop </li>
-</ul>
 
 
 ## Project templates
@@ -524,56 +483,10 @@ Bad examples:
 
 [From <https://djnavarro.net/slides-project-structure/#1>]{style="font-size: x-small;"}
 
-## Version control {background-image="img/project-history.jpg" background-size="40%" background-position="80% 50%"}
-
-By using a version control system (VCS - git is most widely used), you can:
-
-- record changes to file(s) over time
-- revert selected files back to a previous state
-- revert the entire project back to a previous state
-- compare changes over time
-- see who last modified something, when, and more
-
-![](img/github-diff.png){.fragment .absolute top=150 right=50}
-
-::: {.background-caption style="right: 0px; bottom: 0px;"}
-This illustration is created by Scriberia with The Turing Way community.  
-Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
-:::
-
-
-## Version control hosting services
-
-### GitHub ![](img/GitHub-Mark-64px.png){.absolute top=46 right=840}
-
-- Popular host for developing open-source (and closed-source) projects
-- share with nobody (Microsoft), collaborators, everybody 
-- Free account for individuals
-
-<br>
-
-### GitLab ![](img/gitlab-logo.png){.absolute top=310 right=840 width=64}
-
-- Similar interface to GitHub
-- TU Delft provides own server (secure for sensitive data)
-- Share with nobody, collaborators, all TU Delft researchers, everybody
-- Free account for individuals
-
-## VCS hosting services {.center}
-
-They are NOT a certified repository for long-term storage
-
-They do NOT assign DOIs
-
-. . .
-
-They CAN be connected with certified repositories
-
-Snapshots of the repo will be taken and assigned a DOI
 
 ## Documentation {.smaller}
 
-### What to document
+**What to document**
 
 - How to navigate the project
 - How to (re-)use code and data
@@ -587,9 +500,11 @@ your findings?
 
 That someone may be your future self!
 
+<br>
+
 . . .
 
-### In practice
+**In practice**
 
 - Metadata embedded in files (instrument-specific)
 - Paper or (preferably) electronic lab notebooks
@@ -599,9 +514,7 @@ That someone may be your future self!
 - Use disciplinary metadata standards (may or may not exist for your discipline)
 
 
-## Documentation
-
-### Lab notebooks
+## Documentation: Lab notebooks
 
 Conventionally kept in physical notebooks in lab or PIs office
 
@@ -613,9 +526,7 @@ This has some limitations
 - depends on handwriting legibility
 - often not standardised
 
-## Documentation {#documentation-3 background-image="img/e-labnotebooks.jpg" background-position="90% 30%" background-size="50%"}
-
-### Electronic notebooks
+## Documentation: Electronic lab notebooks {#documentation-3 background-image="img/e-labnotebooks.jpg" background-position="90% 30%" background-size="50%"}
 
 Several beneficial functionalities
 
@@ -636,9 +547,7 @@ Several beneficial functionalities
 Illustrated by [Connie Clare](https://openworking.wordpress.com/2019/07/05/keep-calm-and-go-paperless-electronic-lab-notebooks-can-improve-your-research/)
 :::
 
-## Documentation {#documentation-4 .scrollable}
-
-### README
+## Documentation: README {#documentation-4 .scrollable}
 
 File(s) (*.txt*, *.md*, *.pdf*) that are stored at the root of your project or data directory
 
@@ -678,8 +587,6 @@ Examples from https://www.tudelft.nl/en/library/research-data-management/r/manag
 ## Spreadsheet organistion
 
 Raw data... [DO NOT TOUCH]{.fragment}
-
-. . .
 
 ![GIPHY](https://media.giphy.com/media/3oKIP657aH5QRMkX3q/giphy.gif){width="450px"}
 
@@ -739,6 +646,42 @@ If you just can't choose!
 ![](img/python-notebook-quarto.png){.absolute width="500px" top="0" right="0"}
 ![](img/hello-jupyter.png){.absolute width="250px" top="190" right="0" style="border: 1px solid black;"}
 
+
+## Version control {background-image="img/project-history.jpg" background-size="40%" background-position="80% 50%"}
+
+By using a version control system (VCS - git is most widely used), you can:
+
+- record changes to file(s) over time
+- revert selected files back to a previous state
+- revert the entire project back to a previous state
+- compare changes over time
+- see who last modified something, when, and more
+
+![](img/github-diff.png){.fragment .absolute top=150 right=50}
+
+::: {.background-caption style="right: 0px; bottom: 0px;"}
+This illustration is created by Scriberia with The Turing Way community.  
+Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+:::
+
+
+## Version control hosting services
+
+### GitHub ![](img/GitHub-Mark-64px.png){.absolute top=46 right=840}
+
+- Popular host for developing open-source (and closed-source) projects
+- share with nobody (Microsoft), collaborators, everybody 
+- Free account for individuals
+
+<br>
+
+### GitLab ![](img/gitlab-logo.png){.absolute top=310 right=840 width=64}
+
+- Similar interface to GitHub
+- TU Delft provides own server (secure for sensitive data)
+- Share with nobody, collaborators, all TU Delft researchers, everybody
+- Free account for individuals
+
 ## 
 
 ![](img/training-researchers.png)
@@ -760,76 +703,8 @@ Data storage
 - backups
 - metadata standards for your field
 
-## Personal data {.scrollable}
 
-What is considered personal data?
-
-- "Personal Data" (GDPR, Article 4): any information relating to an identified or identifiable natural person
-
-- a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person
-
-. . .
-
-### Direct vs. indirect identifiers
-
-**Direct identifiers:** information that relates specifically to an individual such as the individual’s residence. 
-
-- name, address, BSN or other identifying number or code, telephone number, e-mail address, biometric record
-
-. . .
-
-**Indirect identifiers:** information that can be combined with other information to identify specific individuals
-a combination of gender, birth date, geographic indicator and other descriptors. 
-place of birth, race, religion, weight, activities, employment information, medical information, education information, and financial information
-
-
-## Working with personal data {.center}
-
-Anyone working with human participants will have to submit an application to the [Human Research Ethics Committee (HREC)](https://www.tudelft.nl/en/about-tu-delft/strategy/integrity-policy/human-research-ethics/hrec-approval-1-application).
-
-. . .
-
-For the application you will need to:
-
-- Create an [informed consent form](https://www.tudelft.nl/over-tu-delft/strategie/integriteitsbeleid/human-research-ethics/informed-consent-templates-and-guide)
-- Fill out the [HREC checklist](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/Integriteitsbeleid/11_HRX-checklist%20for%20human%20research.docx)
-- Create a Data Management Plan using the TUDelft template
-
-## Working with personal data {.center}
-
-. . .
-
-Collect only what you need (and what you informed participants you would collect)
-
-. . .
-
-Access to personal data is restricted to only those who need to process them
-
-. . .
-
-Data should be stored in a secure location (e.g. Project Drive)
-
-. . .
-
-Informed consent forms should be securely stored
-
-- paper forms: locked storage
-- digital forms: encrypted and separated from the other personal data
-
-## Working with personal data {.center}
-
-### Anonymisation vs. pseudonymisation
-
-**Pseudonymisation:** assign a unique participant number to each participant on the corresponding informed consent form or a separate key document. Use participant number (not their names), during data collection & analysis. This is not anonymization, since it is possible to trace each unique participant number to the corresponding participant.
-
-- Key document needs to be stored in a separate and secure location (e.g. with the informed consent forms).
-
-. . .
-
-**Anonymisation:** Full anonymization is often difficult to achieve. It might be still possible to identify a specific individual by putting together indirect identifiers. Easier to achieve by data aggregation. 
-
-
-# After the Project {background-color="#00A6D6" background-image="img/archive-or-publish.jpg" background-position="right" background-size="60%"}
+# After the Project {background-color="#00A6D6" background-image="img/archive-or-publish.jpg" background-position="right" background-size="56%"}
 
 ::: {style="position: fixed; font-size: x-small; font-weight: lighter; bottom: 0; right: 0;"}
 This illustration is created by Scriberia with The Turing Way community.  
@@ -839,15 +714,6 @@ Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10
 ## Archiving data/code {.center}
 
 {{< include _archiving-policy.md >}}
-
-## Publishing data/code 
-
-
-> Data are available upon request to corresponding author.
-
-. . .
-
-![GIPHY](https://media.giphy.com/media/5fBH6zf7l8bxukYh74Q/giphy.gif)
 
 
 ## Publishing data
@@ -871,10 +737,10 @@ Image: https://book.fosteropenscience.eu/
 
 ![](img/care-principles.png){width="250px"}
 
-[**C**ollective benefit - inclusive development and equitable outcomes]{.fragment}  
-[**A**uthority to control - Rights, interests, and governance]{.fragment}  
-[**R**esponsibility - respect, reciprocity, and trust]{.fragment}  
-[**E**thics - minimising harm and maximising benefit]{.fragment}
+**C**ollective benefit - inclusive development and equitable outcomes  
+**A**uthority to control - Rights, interests, and governance  
+**R**esponsibility - respect, reciprocity, and trust  
+**E**thics - minimising harm and maximising benefit
 
 ::: {style="position: fixed; font-size: x-small; font-weight: lighter; bottom: 0; right: 0;"}
 https://www.gida-global.org/care
@@ -931,16 +797,6 @@ Check whether existing relevant documents, such as grant/consortium agreement et
 Bazuine, Merlijn. (2021). TU Delft Guidelines on Research Software: Licensing, Registration and Commercialisation. Zenodo. <https://doi.org/10.5281/zenodo.4629635>
 :::
 
-## Publishing software
-
-### Commercial vs. open source
-
-Can co-exist (e.g. RStudio, NextCloud, ownCloud, Linux distros)
-
-- Software is open source, maintenance and support is profitable
-- Free for individuals, commercial licenses
-- Free basic model, proprietary advanced usage
-
 # What's Next?
 
 :::: {.columns}
@@ -950,14 +806,14 @@ Can co-exist (e.g. RStudio, NextCloud, ownCloud, Linux distros)
 
 - [Intro to research data management]{style="opacity: 0.3;"}
     + [policy requirements]{style="opacity: 0.3;"}
-    + [processing personal data]{style="opacity: 0.3;"}
+    + [available infrastructure]{style="opacity: 0.3;"}
 - [Hands-on experience with DMP(online)]{style="opacity: 0.3;"}
 
 
 **Part 2**
 
-- [Applying what you learned]{.fragment}
-- [Discussing with supervisor (and data steward) and completing the DMP]{.fragment}
+- [Apply what you learned to your daily workflow]{.fragment}
+- [Complete the DMP in collaboration with supervisor (and Data Steward, if needed)]{.fragment}
 
 :::
 
@@ -980,9 +836,9 @@ Can co-exist (e.g. RStudio, NextCloud, ownCloud, Linux distros)
 
 ::: {.column}
 
-![](https://d2k0ddhflgrk1i.cloudfront.net/_processed_/a/1/csm_Yasemin%20T%C3%BCrkyilmaz_2019_159f3580d5.webp){width="300"}
+![](){width="300"}
 
-[Yasemin Türkyilmaz-van der Velden](https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact/yasemin-turkyilmaz-van-der-velden)
+[TBD]()
 
 :::
 
