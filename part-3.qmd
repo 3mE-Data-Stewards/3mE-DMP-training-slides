@@ -25,14 +25,14 @@ If it's not clear after part 3, shame on me
 
 - [Intro to research data management]{style="opacity: 0.3;"}
     + [policy requirements]{style="opacity: 0.3;"}
-    + [processing personal data]{style="opacity: 0.3;"}
+    + [available infrastructure]{style="opacity: 0.3;"}
 - [Hands-on experience with DMP(online)]{style="opacity: 0.3;"}
 
 
 [**Part 2**]{style="opacity: 0.3;"}
 
-- [Applying what you learned]{style="opacity: 0.3;"}
-- [Discussing with supervisor (and data steward) and completing the DMP]{style="opacity: 0.3;"}
+- [Apply what you learned to your daily workflow]{style="opacity: 0.3;"}
+- [Complete the DMP in collaboration with supervisor (and Data Steward, if needed)]{style="opacity: 0.3;"}
 
 :::
 
@@ -146,23 +146,7 @@ Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10
 
 ## Archiving data/code
 
-As a PhD student you are resposible for:
-
->Ensuring that all data and code underlying completed PhD theses are
-appropriately documented and accessible for at least 10 years from the end
-of the research project, in accordance with the FAIR principles (Findable,
-Accessible, Interoperable and Reusable), unless there are valid reasons
-which make research data unsuitable for sharing.
-
-\- [3mE RDM Policy](https://d2k0ddhflgrk1i.cloudfront.net/Library/Themaportalen/RDM/Beleid/2020_3mE_Research_Data_Management_Policy.pdf)
-
-Minimal requirement:
-
-- deposition of processed data underlying figures and conclusions in published papers and dissertations.
-
-Encouraged:
-
-- deposition of raw data, software, data analysis scripts, protocols, etc.
+{{< include _archiving-policy.md >}}
 
 ## Publishing data
 
@@ -292,9 +276,9 @@ JoKalliauer; foter, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0
 ::: {.column}
 #### NOT legitimate repositories
 
-- GitHub/Lab (can be connected to 4TU and Zenodo)
+- GitHub/Lab (but can be connected to 4TU and Zenodo)
 - ResearchGate/Academia-not-edu
-- Personal website
+- Personal/lab website
 
 <br>
 
@@ -317,7 +301,7 @@ JoKalliauer; foter, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0
   - restricted access
 - DOI + citation statement
 - track usage (downloads, views, citation)
-- figshare in a TUDelft wrapper (for now...)
+- push directly from git
 
 
 ## Publishing software
