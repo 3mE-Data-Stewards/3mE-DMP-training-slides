@@ -13,15 +13,15 @@ format:
 
 ::: {.column}
 
-![](){width="300"}
+![](https://filelist.tudelft.nl/_processed_/4/7/csm_Sara_d99219d49e.webp){width="300"}
 
-[Sara Shoghi (1st March)](https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact/yasemin-turkyilmaz-van-der-velden)
+[Sara Shoghi](https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact/sara-shoghi)
 
 :::
 
 ::: {.column}
 
-![](https://d2k0ddhflgrk1i.cloudfront.net/_processed_/2/a/csm_avatar_a441d85745.webp){width="241"}
+![](https://filelist.tudelft.nl/_processed_/2/a/csm_avatar_a441d85745.webp){width="241"}
 
 [Bjørn Bartholdy](https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact/bjoern-bartholdy)
 
@@ -232,7 +232,7 @@ Need more computing power?
 
 | Location | Storage | Access | Suitable for confidential data? |
 |---|---|---|---|
-| SURFDrive | 500 GB | Just you (can share files/folders) | No |
+| SURFDrive | 1 TB | Just you (can share files/folders) | No |
 | Microsoft OneDrive | 1 TB | Just you (can share files/folders) | No |
 
 
@@ -279,10 +279,11 @@ or
 
 [**SURFDrive**](https://www.surfdrive.nl/en)
 
-- 500 GB storage for TU Delft researchers
+- 1 TB storage for TU Delft researchers
 - 30 days backup
 - local desktop application, synchronised with cloud
 - Flexible sharing possible with external collaborators
+- Cross-platform (Linux, MacOS, Windows)
 
 [**OneDrive**](https://onedrive.live.com/)
 
