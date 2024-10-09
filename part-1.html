@@ -10,7 +10,7 @@
 <link href="part-1_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="part-1_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="part-1_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.547">
+  <meta name="generator" content="quarto-1.5.41">
 
   <meta name="author" content="Bjørn Peare Bartholdy">
   <title>Data Management Plan Training</title>
@@ -620,6 +620,14 @@ Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.333
 <div class="fragment">
 <p>For more instructions, see <a href="https://www.tudelft.nl/en/library/research-data-management/r/plan/dmponline/dmponline">here</a>.</p>
 </div>
+</section></section>
+<section>
+<section id="during-the-project" class="title-slide slide level1 center" data-background-color="#00A6D6" data-background-image="img/rdm-storage.jpg" data-background-size="56%" data-background-position="right" aria-label="Person looking in a closet with various books, folders, locked boxes. Speachbox saying data from last year?">
+<h1>During the project</h1>
+<div class="background-caption" style="right: 100px; bottom: 0px;">
+<p>This illustration is created by Scriberia with The Turing Way community.<br>
+Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a></p>
+</div>
 </section>
 <section id="data-storage" class="slide level2 scrollable">
 <h2>Data storage</h2>
@@ -642,7 +650,7 @@ Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.333
 <section id="ict-data-storage" class="slide level2 center">
 <h2>TU Delft ICT Network drives</h2>
 <p>These are accessible from the TU Delft network (e.g.&nbsp;via Windows File Explorer)</p>
-<table>
+<table class="caption-top">
 <colgroup>
 <col style="width: 25%">
 <col style="width: 25%">
@@ -687,7 +695,7 @@ Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.333
 </section>
 <section id="cloud-data-storage" class="slide level2 center">
 <h2>Cloud drives</h2>
-<table>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th>Location</th>
@@ -811,14 +819,6 @@ Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.333
 </li><li>
 ❌ Account deleted shortly after researcher leaves
 </li></ul>
-</section></section>
-<section>
-<section id="during-the-project" class="title-slide slide level1 center" data-background-color="#00A6D6" data-background-image="img/rdm-storage.jpg" data-background-size="56%" data-background-position="right" aria-label="Person looking in a closet with various books, folders, locked boxes. Speachbox saying data from last year?">
-<h1>During the project</h1>
-<div class="background-caption" style="right: 100px; bottom: 0px;">
-<p>This illustration is created by Scriberia with The Turing Way community.<br>
-Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a></p>
-</div>
 </section>
 <section id="data-backup" class="slide level2 center">
 <h2>Backups</h2>
@@ -831,6 +831,43 @@ Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.333
 </div>
 <div class="fragment">
 <p><strong>1 copy</strong> stored offsite (different geographical location)</p>
+</div>
+</section>
+<section id="data-backup-types" class="slide level2 center">
+<h2>Backup types</h2>
+<div class="columns">
+<div class="column">
+<p>Two-way (synchronisation)</p>
+<p>One-way (backup)</p>
+</div><div class="column">
+<p><img data-src="./img/backup-vs-sync.png"></p>
+</div>
+</div>
+</section>
+<section id="backup-types" class="slide level2">
+<h2>Backup types</h2>
+<div class="columns">
+<div class="column">
+<p>Full backups</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./img/full-backup-illustration.png"></p>
+<figcaption><a href="https://phoenixnap.it/kb/full-vs-incremental-vs-differential-backup">Phoenix Nap</a></figcaption>
+</figure>
+</div>
+<p>+ Easy to restore data<br>
+- Uses a lot of storage</p>
+</div><div class="column">
+<p>Incremental backups</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./img/incremental-backup.png"></p>
+<figcaption><a href="https://phoenixnap.it/kb/full-vs-incremental-vs-differential-backup">Phoenix Nap</a></figcaption>
+</figure>
+</div>
+<p>+ Uses less storage<br>
+- More complicated to restore data</p>
+</div>
 </div>
 </section>
 <section id="data-sharing" class="slide level2 center">
@@ -1680,18 +1717,7 @@ Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.333
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1723,7 +1749,47 @@ Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.333
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
@@ -1760,7 +1826,11 @@ Used under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.333
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

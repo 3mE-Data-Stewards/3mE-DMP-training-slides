@@ -198,6 +198,15 @@ Here, you can:
 
 For more instructions, see [here](https://www.tudelft.nl/en/library/research-data-management/r/plan/dmponline/dmponline).
 
+
+# During the project {background-color="#00A6D6" background-image="img/rdm-storage.jpg" background-size="56%" background-position="right" aria-label="Person looking in a closet with various books, folders, locked boxes. Speachbox saying data from last year?"}
+
+::: {.background-caption style="right: 100px; bottom: 0px;"}
+This illustration is created by Scriberia with The Turing Way community.  
+Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+:::
+
+
 ## Data storage {#data-storage .scrollable}
 
 Storage options at TU Delft
@@ -321,12 +330,6 @@ Other cloud solutions
     <li> ❌ Account deleted shortly after researcher leaves
 </ul>
 
-# During the project {background-color="#00A6D6" background-image="img/rdm-storage.jpg" background-size="56%" background-position="right" aria-label="Person looking in a closet with various books, folders, locked boxes. Speachbox saying data from last year?"}
-
-::: {.background-caption style="right: 100px; bottom: 0px;"}
-This illustration is created by Scriberia with The Turing Way community.  
-Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
-:::
 
 ## Backups {#data-backup .center}
 
@@ -343,6 +346,49 @@ Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10
 . . .
 
 **1 copy** stored offsite (different geographical location)
+
+## Backup types {#data-backup-types .center}
+
+:::: {.columns}
+::: {.column}
+
+Two-way (synchronisation)
+
+One-way (backup)
+
+:::
+::: {.column}
+
+![](/img/backup-vs-sync.png)
+
+:::
+::::
+
+## Backup types
+
+:::: {.columns}
+::: {.column}
+
+Full backups
+
+![[Phoenix Nap](https://phoenixnap.it/kb/full-vs-incremental-vs-differential-backup)](/img/full-backup-illustration.png)
+
+\+ Easy to restore data  
+\- Uses a lot of storage
+
+:::
+::: {.column}
+
+Incremental backups
+
+![[Phoenix Nap](https://phoenixnap.it/kb/full-vs-incremental-vs-differential-backup)](/img/incremental-backup.png)
+
+\+ Uses less storage  
+\- More complicated to restore data
+
+:::
+::::
+
 
 ## Data sharing {#data-sharing .center}
 
