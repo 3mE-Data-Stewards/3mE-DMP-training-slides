@@ -2,3 +2,4 @@
 *.pdf
 /.quarto/
 /_archive/
+.Rproj.user

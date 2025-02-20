@@ -9,39 +9,36 @@ format:
 
 ## ME Data Stewards
 
-:::: {.columns}
-
-::: {.column}
-
+::: columns
+::: column
 ![](https://filelist.tudelft.nl/_processed_/4/7/csm_Sara_d99219d49e.webp){width="300"}
 
 [Sara Shoghi](https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact/sara-shoghi)
-
 :::
 
-::: {.column}
-
+::: column
 ![](https://filelist.tudelft.nl/_processed_/2/a/csm_avatar_a441d85745.webp){width="241"}
 
 [Bjørn Bartholdy](https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact/bjoern-bartholdy)
-
 :::
-::::
+:::
 
-{{< fa envelope >}} datasteward-ME@tudelft.nl
+{{< fa envelope >}} datasteward-ME\@tudelft.nl
 
 ## Why are you here? {.center}
 
 Support with Research Data Management Policy requirements:
 
-- Attend training in Research Data Management [✔️]{.fragment}
+-   Attend training in Research Data Management [✔️]{.fragment}
 
-- Data management plan (DMP)
-    + To be written within the first 12 months
-    + approval during go/no-go meeting
+-   Data management plan (DMP)
 
-- Data/code archiving requirement
-    + Research data and code supporting the PhD thesis must be uploaded to a repository before graduation
+    -   To be written within the first 12 months
+    -   approval during go/no-go meeting
+
+-   Data/code archiving requirement
+
+    -   Research data and code supporting the PhD thesis must be uploaded to a repository before graduation
 
 ## No, seriously... why? {.center}
 
@@ -57,61 +54,53 @@ Early organisation and proper documentation of project and data
 
 Prevent data loss... [you never know]{.fragment}
 
-
-![](https://daphartmann.files.wordpress.com/2017/02/tu-delft-bouwkunde-brand-1.jpg){.fragment .absolute top=100 right=260 width="400"}
+![](https://daphartmann.files.wordpress.com/2017/02/tu-delft-bouwkunde-brand-1.jpg){.fragment .absolute top="100" right="260" width="400"}
 
 <!-- and you get credit (1 GS) -->
 
-
 ## Training schedule
 
-:::: {.columns}
-
-::: {.column}
+::: columns
+::: column
 **Part 1**
 
-- Intro to research data management
-    + before, during, and following the research
-    + policy requirements
-    + (processing personal data)
-- Hands-on experience with DMP(online)
-
+-   Intro to research data management
+    -   before, during, and following the research
+    -   policy requirements
+    -   (processing personal data)
+-   Hands-on experience with DMP(online)
 
 **Part 2**
 
-- Discussing with supervisor (and data steward) and completing the DMP
-
+-   Discussing with supervisor (and data steward) and completing the DMP
 :::
 
-::: {.column}
-
+::: column
 **Part 3**
 
-- Summary of part 1
-- Re-evaluation of DMPs
-- Archiving and publishing data and code
-
+-   Summary of part 1
+-   Re-evaluation of DMPs
+-   Archiving and publishing data and code
 :::
-::::
+:::
 
 ## Training outcomes {.center}
 
-- The importance of proper data
-    + management
-    + storage
-    + documentation
+-   The importance of proper data
+    -   management
+    -   storage
+    -   documentation
 
 . . .
 
-- Practical implementation of a DMP
-    + using DMPonline
-
-- Personal data considerations
+-   Practical implementation of a DMP
+    -   using DMPonline
+-   Personal data considerations
 
 # Before the project {background-color="#00A6D6" background-image="img/data-management-plan-with-text.jpg" background-size="56%" background-position="right" aria-label="Person looking scared saying 'Oh no!! My computer crased. I lost all the data.' Another person standing next to them looking confident while holding a paper with DMP written on the back saying 'Good thing I had a plan! The data is all backed up!'"}
 
 ::: {.background-caption style="right: 100px; bottom: 0px;"}
-This illustration is created by Scriberia with The Turing Way community.  
+This illustration is created by Scriberia with The Turing Way community.\
 Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 :::
 
@@ -156,27 +145,25 @@ digraph G {
 
 Document describing what will happen with...
 
-- code
-- data
+-   code
+-   data
 
 ...during the project, including
 
-- [storage](#data-storage) and [backups](#data-backup)
-- who has access
+-   [storage](#data-storage) and [backups](#data-backup)
+-   who has access
 
 It also determines what happens to code/data after the project
 
-- if it will be publicly available
-- how long data will be stored for future (re)use
-- who will have access to the data in the long term
+-   if it will be publicly available
+-   how long data will be stored for future (re)use
+-   who will have access to the data in the long term
 
 ## Research data {.center}
 
 > .... data in the form of **facts, observations, images, computer program results, recordings, measurements or experiences on which an argument, theory, test or hypothesis, or other research output is based.** It relates to data generated, collected, or used, during research projects, and in some cases may include the research output itself. Data may be numerical, descriptive, visual or tactile. It may be raw, cleaned or processed, and may be held in any format or media. Research data, in many disciplines, may by necessity include the software, algorithm, model and/or parameters, used to arrive at the research outcome, in addition to the raw data that the software, algorithm or model is applied to.
 
 \- [Queensland University of Technology](https://www.mopp.qut.edu.au/D/D_02_08.jsp#D_02_08.10.mdoc)
-
-
 
 ## DMPonline {.center}
 
@@ -188,62 +175,59 @@ You can log in with your NetID to the [TU Delft DMPonline](https://dmponline.tud
 
 Here, you can:
 
-- Write and update your plan during research
-- Select from multiple templates (TU Delft, NWO, etc.)
-- Share your plan with collaborators/supervisor
-- Request feedback from your faculty [data steward](https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact)
-- See other plans shared by researchers at TU Delft
+-   Write and update your plan during research
+-   Select from multiple templates (TU Delft, NWO, etc.)
+-   Share your plan with collaborators/supervisor
+-   Request feedback from your faculty [data steward](https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact)
+-   See other plans shared by researchers at TU Delft
 
 . . .
 
 For more instructions, see [here](https://www.tudelft.nl/en/library/research-data-management/r/plan/dmponline/dmponline).
 
-
 # During the project {background-color="#00A6D6" background-image="img/rdm-storage.jpg" background-size="56%" background-position="right" aria-label="Person looking in a closet with various books, folders, locked boxes. Speachbox saying data from last year?"}
 
 ::: {.background-caption style="right: 100px; bottom: 0px;"}
-This illustration is created by Scriberia with The Turing Way community.  
+This illustration is created by Scriberia with The Turing Way community.\
 Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 :::
-
 
 ## Data storage {#data-storage .scrollable}
 
 Storage options at TU Delft
 
-<https://tudelft.topdesk.net/> > ICT services > IT for Researchers
+<https://tudelft.topdesk.net/> \> ICT services \> IT for Researchers
 
-- [TU Delft ICT Network drives](#ict-data-storage)
-    + Personal Drive (H:)
-    + Staff Group Data (M:)
-    + Project Drive (U:)
-- [Cloud Storage](#cloud-data-storage)
-    + SurfDrive
-    + TU Delft OneDrive
+-   [TU Delft ICT Network drives](#ict-data-storage)
+    -   Personal Drive (H:)
+    -   Staff Group Data (M:)
+    -   Project Drive (U:)
+-   [Cloud Storage](#cloud-data-storage)
+    -   SurfDrive
+    -   TU Delft OneDrive
 
 ## TU Delft ICT Network drives {#ict-data-storage .center}
 
 These are accessible from the TU Delft network (e.g. via Windows File Explorer)
 
-| Location | Storage | Access | Suitable for confidential data? |
-|---|---|---|---|
-| Personal Drive (H:) | 8 GB | Just you | Yes (but not research data) |
-| Staff Group Data (M:) | 50 GB | Department | No |
-| Project Data (U:) | 5+ TB | Managed by drive owner (project PI) | Yes |
+| Location              | Storage | Access                              | Suitable for confidential data? |
+|------------------|------------------|------------------|------------------|
+| Personal Drive (H:)   | 8 GB    | Just you                            | Yes (but not research data)     |
+| Staff Group Data (M:) | 50 GB   | Department                          | No                              |
+| Project Data (U:)     | 5+ TB   | Managed by drive owner (project PI) | Yes                             |
 
 . . .
 
 Need more computing power?
 
-- [DelftBlue Supercomputer](https://tudelft.topdesk.net/tas/public/ssp/content/detail/service?unid=b7e2b7b46ac94cf688c21761aa324fc1&from=60b11439-7ae3-44bb-8537-1dc3278f3642)
+-   [DelftBlue Supercomputer](https://tudelft.topdesk.net/tas/public/ssp/content/detail/service?unid=b7e2b7b46ac94cf688c21761aa324fc1&from=60b11439-7ae3-44bb-8537-1dc3278f3642)
 
 ## Cloud drives {#cloud-data-storage .center}
 
-| Location | Storage | Access | Suitable for confidential data? |
-|---|---|---|---|
-| SURFDrive | 1 TB | Just you (can share files/folders) | No |
-| Microsoft OneDrive | 1 TB | Just you (can share files/folders) | No |
-
+| Location           | Storage | Access                             | Suitable for confidential data? |
+|--------------------|---------|------------------------------------|---------------------------------|
+| SURFDrive          | 1 TB    | Just you (can share files/folders) | No                              |
+| Microsoft OneDrive | 1 TB    | Just you (can share files/folders) | No                              |
 
 ## Project Drive storage {.scrollable}
 
@@ -251,9 +235,9 @@ Need more computing power?
 
 TU Delft ICT Network Drive
 
-- reugular backups
-    + standard: 14 days retention
-    + high: 14 days + 53 weeks with redundancy (upon request)
+-   reugular backups
+    -   standard: 14 days retention
+    -   high: 14 days + 53 weeks with redundancy (upon request)
 
 . . .
 
@@ -263,15 +247,15 @@ TU Delft ICT Network Drive
 
 Should be managed by project leader
 
-- access can be given to internal and external users
+-   access can be given to internal and external users
 
 . . .
 
 Pros:
 
-- Data is accessible when researcher leaves lab
-- Up to 5TB storage (more upon reasonable request)
-- Can request for multiple projects
+-   Data is accessible when researcher leaves lab
+-   Up to 5TB storage (more upon reasonable request)
+-   Can request for multiple projects
 
 . . .
 
@@ -283,53 +267,70 @@ or
 
 [WebDrive/WebDav Web links](https://webdata.tudelft.nl/)
 
-
 ## Cloud storage {.scrollable}
 
 [**SURFDrive**](https://www.surfdrive.nl/en)
 
-- 1 TB storage for TU Delft researchers
-- 30 days backup
-- local desktop application, synchronised with cloud
-- Flexible sharing possible with external collaborators
-- Cross-platform (Linux, MacOS, Windows)
+-   1 TB storage for TU Delft researchers
+-   30 days backup
+-   local desktop application, synchronised with cloud
+-   Flexible sharing possible with external collaborators
+-   Cross-platform (Linux, MacOS, Windows)
 
 [**OneDrive**](https://onedrive.live.com/)
 
-- 1 TB storage for TU Delft researchers
-- 30 days backup
-- local desktop application, synchronised with cloud
-- Flexible sharing possible with external collaborators
-- Automatic version control
+-   1 TB storage for TU Delft researchers
+-   30 days backup
+-   local desktop application, synchronised with cloud
+-   Flexible sharing possible with external collaborators
+-   Automatic version control
 
 Other cloud solutions
 
-- Dropbox, Google Drive, etc.
-- Just don't...
+-   Dropbox, Google Drive, etc.
+-   Just don't...
 
 ## Pros-cons
 
 **TU Delft ICT Network drives**
 
 <ul style="list-style-type: none;">
-    <li> ✔️ Regular backups (3-2-1 rule)  </li>
-    <li> ✔️ Secure storage  </li>
-    <li> ✔️ High volume storage (5TB+) </li>
-    <li> ❌ Needs internet connection (and EduVPN)  </li>
-    <li> ❌ Can't share single files/folders (all or nothing) </li>
+
+<li>✔️ Regular backups (3-2-1 rule)</li>
+
+<li>✔️ Secure storage</li>
+
+<li>✔️ High volume storage (5TB+)</li>
+
+<li>❌ Needs internet connection (and EduVPN)</li>
+
+<li>❌ Can't share single files/folders (all or nothing)</li>
+
 </ul>
 
 **Cloud drives**
 
 <ul style="list-style-type: none;">
-    <li> ✔️ Synchronisation with local device  </li>
-    <li> ✔️ Version controlled  </li>
-    <li> ✔️ Advanced sharing  </li>
-    <li> ❌ Not secure, not appropriate for sensitive/personal data  
-    <li> ❌ Not compliant with 3-2-1 backup  
-    <li> ❌ Account deleted shortly after researcher leaves
-</ul>
 
+<li>✔️ Synchronisation with local device</li>
+
+<li>✔️ Version controlled</li>
+
+<li>✔️ Advanced sharing</li>
+
+<li>
+
+❌ Not secure, not appropriate for sensitive/personal data\
+
+<li>
+
+❌ Not compliant with 3-2-1 backup\
+
+<li>
+
+❌ Account deleted shortly after researcher leaves
+
+</ul>
 
 ## Backups {#data-backup .center}
 
@@ -349,54 +350,46 @@ Other cloud solutions
 
 ## Backup types {#data-backup-types .center}
 
-:::: {.columns}
-::: {.column}
-
+::: columns
+::: column
 Two-way (synchronisation)
 
 One-way (backup)
-
 :::
-::: {.column}
 
+::: column
 ![](/img/backup-vs-sync.png)
-
 :::
-::::
+:::
 
 ## Backup types
 
-:::: {.columns}
-::: {.column}
-
+::: columns
+::: column
 Full backups
 
 ![[Phoenix Nap](https://phoenixnap.it/kb/full-vs-incremental-vs-differential-backup)](/img/full-backup-illustration.png)
 
-\+ Easy to restore data  
-\- Uses a lot of storage
-
+\+ Easy to restore data\
+- Uses a lot of storage
 :::
-::: {.column}
 
+::: column
 Incremental backups
 
 ![[Phoenix Nap](https://phoenixnap.it/kb/full-vs-incremental-vs-differential-backup)](/img/incremental-backup.png)
 
-\+ Uses less storage  
-\- More complicated to restore data
-
+\+ Uses less storage\
+- More complicated to restore data
 :::
-::::
-
+:::
 
 ## Data sharing {#data-sharing .center}
 
 [SURFfilesender](https://www.surf.nl/en/surffilesender-send-large-files-securely-and-encrypted)
 
-- up to 1 TB
-- End-to-end encryption up to 2 GB
-
+-   up to 1 TB
+-   End-to-end encryption up to 2 GB
 
 ## Project/data organisation
 
@@ -420,7 +413,7 @@ Your future self will thank you...
 
 Projects should be contained within folders in a meaningful place
 
-```
+```         
 📁 project_name
     📄 README
     📁data
@@ -437,11 +430,14 @@ Projects should be contained within folders in a meaningful place
 . . .
 
 <ul style="list-style-type: none;">
-    <li> ✔️ Could be in home directory (`~/Documents/Project_name`)  </li>
-    <li> ✔️ Could be in the cloud (`OneDrive/Project_name`) </li>
-    <li> ❌ NOT on the Desktop </li>
-</ul>
 
+<li>✔️ Could be in home directory (`~/Documents/Project_name`)</li>
+
+<li>✔️ Could be in the cloud (`OneDrive/Project_name`)</li>
+
+<li>❌ NOT on the Desktop</li>
+
+</ul>
 
 ## Project templates
 
@@ -457,7 +453,7 @@ There are many pre-existing templates out there that can help you
 
 <https://github.com/bvreede/good-enough-project>
 
-```
+```         
 .
 ├── .gitignore
 ├── CITATION.md
@@ -486,7 +482,7 @@ There are many pre-existing templates out there that can help you
 
 <https://github.com/paleobiotechnology/analysis-project-structure>
 
-```
+```         
 README.md
 conda_environment.yml
 .gitignore
@@ -545,25 +541,25 @@ I know, I know, could there BE a more boring topic...
 
 It is pretty essential, though. Follow these rules and she'll be right 👍:
 
-- Use dates where applicable: YYYY-MM-DD (ISO 8601 format)
-    + Use them at the beginning of the file name so it arranges by date
-- Be descriptive, but brief
-- Using a version number (not 'final' - there's no such thing as a final version...)
-- Avoid spaces and special characters (exceptions: `_` and `-`)
-    + separate related words with `-` and chunks with `_`
-- Avoid case-sensitivity (SomE operAting SystEms cARE, some don't)
+-   Use dates where applicable: YYYY-MM-DD (ISO 8601 format)
+    -   Use them at the beginning of the file name so it arranges by date
+-   Be descriptive, but brief
+-   Using a version number (not 'final' - there's no such thing as a final version...)
+-   Avoid spaces and special characters (exceptions: `_` and `-`)
+    -   separate related words with `-` and chunks with `_`
+-   Avoid case-sensitivity (SomE operAting SystEms cARE, some don't)
 
 ## File naming continued {.center}
 
 Good examples:
 
-`analysis01_descriptive-statistics.R`  
-`analysis02_preregistered-analysis.py`  
+`analysis01_descriptive-statistics.R`\
+`analysis02_preregistered-analysis.py`\
 `2009-01-01_original-analysis.R`
 
 Bad examples:
 
-`essay "romeo and juliet" draft01(1).docx`  
+`essay "romeo and juliet" draft01(1).docx`\
 `1-April-2012 supervisor comments on final draft.docx`
 
 [From <https://djnavarro.net/slides-project-structure/#1>]{style="font-size: x-small;"}
@@ -572,36 +568,35 @@ Bad examples:
 
 By using a version control system (VCS - git is most widely used), you can:
 
-- record changes to file(s) over time
-- revert selected files back to a previous state
-- revert the entire project back to a previous state
-- compare changes over time
-- see who last modified something, when, and more
+-   record changes to file(s) over time
+-   revert selected files back to a previous state
+-   revert the entire project back to a previous state
+-   compare changes over time
+-   see who last modified something, when, and more
 
-![](img/github-diff.png){.fragment .absolute top=150 right=50}
+![](img/github-diff.png){.fragment .absolute top="150" right="50"}
 
 ::: {.background-caption style="right: 0px; bottom: 0px;"}
-This illustration is created by Scriberia with The Turing Way community.  
+This illustration is created by Scriberia with The Turing Way community.\
 Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 :::
 
-
 ## Version control hosting services
 
-### GitHub ![](img/GitHub-Mark-64px.png){.absolute top=46 right=840}
+### GitHub ![](img/GitHub-Mark-64px.png){.absolute top="46" right="840"}
 
-- Popular host for developing open-source (and closed-source) projects
-- share with nobody (Microsoft), collaborators, everybody 
-- Free account for individuals
+-   Popular host for developing open-source (and closed-source) projects
+-   share with nobody (Microsoft), collaborators, everybody
+-   Free account for individuals
 
 <br>
 
-### GitLab ![](img/gitlab-logo.png){.absolute top=310 right=840 width=64}
+### GitLab ![](img/gitlab-logo.png){.absolute top="310" right="840" width="64"}
 
-- Similar interface to GitHub
-- TU Delft provides own server (secure for sensitive data)
-- Share with nobody, collaborators, all TU Delft researchers, everybody
-- Free account for individuals
+-   Similar interface to GitHub
+-   TU Delft provides own server (secure for sensitive data)
+-   Share with nobody, collaborators, all TU Delft researchers, everybody
+-   Free account for individuals
 
 ## VCS hosting services {.center}
 
@@ -619,11 +614,10 @@ Snapshots of the repo will be taken and assigned a DOI
 
 **What to document**
 
-- How to navigate the project
-- How to (re-)use code and data
+-   How to navigate the project
+-   How to (re-)use code and data
 
-Ask yourself: can someone with access to your project folder, reproduce exactly
-your findings?
+Ask yourself: can someone with access to your project folder, reproduce exactly your findings?
 
 <!-- incremental code content with `. . .` is broken when located below subheaders (h3+) - when subheader comes immediately after slide header??? -->
 
@@ -635,13 +629,12 @@ That someone may be your future self!
 
 **In practice**
 
-- Metadata embedded in files (instrument-specific)
-- Paper or (preferably) electronic lab notebooks
-- README file(s) in project folder
-- Code annotation/software instructions
-- Upload your data to repositories with discovery metadata
-- Use disciplinary metadata standards (may or may not exist for your discipline)
-
+-   Metadata embedded in files (instrument-specific)
+-   Paper or (preferably) electronic lab notebooks
+-   README file(s) in project folder
+-   Code annotation/software instructions
+-   Upload your data to repositories with discovery metadata
+-   Use disciplinary metadata standards (may or may not exist for your discipline)
 
 ## Documentation: Lab notebooks
 
@@ -651,22 +644,22 @@ Conventionally kept in physical notebooks in lab or PIs office
 
 This has some limitations
 
-- does not relocate easily
-- depends on handwriting legibility
-- often not standardised
+-   does not relocate easily
+-   depends on handwriting legibility
+-   often not standardised
 
 ## Documentation: Electronic lab notebooks {#documentation-3 background-image="img/e-labnotebooks.jpg" background-position="90% 30%" background-size="50%"}
 
 Several beneficial functionalities
 
-- text editor
-- spreadsheet tools
-- protocol templates
-- lab inventories
-- sharing/collaboration options
-- lab equipment/workflow managers
-- integration with other resources (e.g. SURFDrive, OneDrive, and GitHub)
-- version controlled
+-   text editor
+-   spreadsheet tools
+-   protocol templates
+-   lab inventories
+-   sharing/collaboration options
+-   lab equipment/workflow managers
+-   integration with other resources (e.g. SURFDrive, OneDrive, and GitHub)
+-   version controlled
 
 . . .
 
@@ -682,22 +675,22 @@ File(s) (*.txt*, *.md*, *.pdf*) that are stored at the root of your project or d
 
 Contain:
 
-- Introductory information
-    + context of project
-- Data-specific information
-    + download/access instructions
-    + re-use and citation (license)
-    + variable name and discription
-    + units of measurement
-    + codes and abbreviations
-    + Methodology
-        - methods for generating the data
-        - methods for processing the data
-        - or link to where this information can be found
-- Code-specific information
-    + installation/download instructions
-    + re-use and citation (license)
-    + Issue/bug reporting and contributing guidelines
+-   Introductory information
+    -   context of project
+-   Data-specific information
+    -   download/access instructions
+    -   re-use and citation (license)
+    -   variable name and discription
+    -   units of measurement
+    -   codes and abbreviations
+    -   Methodology
+        -   methods for generating the data
+        -   methods for processing the data
+        -   or link to where this information can be found
+-   Code-specific information
+    -   installation/download instructions
+    -   re-use and citation (license)
+    -   Issue/bug reporting and contributing guidelines
 
 ## Metadata
 
@@ -707,9 +700,9 @@ Data about data
 
 **FASTQ** files - *.txt* format used in life sciences (bioinformatics in particular) which store information about nucleotide sequence
 
-**TIFF** files - *.tiff* format often contain additional information about images and how these were recorded  
+**TIFF** files - *.tiff* format often contain additional information about images and how these were recorded
 
-**FITS** files - file standard widely used in astronomy to store images and tables. FITS files contain a headers with metadata with information about the data            
+**FITS** files - file standard widely used in astronomy to store images and tables. FITS files contain a headers with metadata with information about the data
 
 Examples from https://www.tudelft.nl/en/library/research-data-management/r/manage/collect-and-document
 
@@ -727,8 +720,7 @@ Raw data... DO NOT TOUCH
 
 Make a copy of the raw data to perform calculations and analysis
 
-- or, ideally, use a scripting language and export derived data
-
+-   or, ideally, use a scripting language and export derived data
 
 ## Spreadsheet organisation
 
@@ -741,17 +733,22 @@ One cell per observation
 Variable naming
 
 <ul style="list-style-type: none;">
-    <li> ✔️ use snake_case or camelCase </li>
-    <li> ✔️ meaningful names (but short) </li>
-    <li> ❌ No special characters or spaces </li>
-    <li> ❌ start with letter (not number) </li>
+
+<li>✔️ use snake_case or camelCase</li>
+
+<li>✔️ meaningful names (but short)</li>
+
+<li>❌ No special characters or spaces</li>
+
+<li>❌ start with letter (not number)</li>
+
 </ul>
 
 ## Code notebooks {#code-notebooks-1 .center background-image="img/rnotebook-source.png" background-position="90% 50%" background-size="40%"}
 
 ### [R Notebook/R Markdown](https://rmarkdown.rstudio.com/)
 
-Combine your analysis code and  
+Combine your analysis code and\
 output in a single document!
 
 <https://rmarkdown.rstudio.com/>
@@ -764,18 +761,15 @@ For Python users! 🐍
 
 <https://jupyter.org/>
 
-
 ## Code notebooks
 
 ### [Quarto](https://quarto.org)
 
 If you just can't choose!
 
-![](img/r-notebook-quarto.png){.absolute width="500px" top="180"}
-![](img/hello-knitr.png){.absolute width="250px" top="300" left="248" style="border: 1px solid black;"}
+![](img/r-notebook-quarto.png){.absolute width="500px" top="180"} ![](img/hello-knitr.png){.absolute width="250px" top="300" left="248" style="border: 1px solid black;"}
 
-![](img/python-notebook-quarto.png){.absolute width="500px" top="0" right="0"}
-![](img/hello-jupyter.png){.absolute width="250px" top="190" right="0" style="border: 1px solid black;"}
+![](img/python-notebook-quarto.png){.absolute width="500px" top="0" right="0"} ![](img/hello-jupyter.png){.absolute width="250px" top="190" right="0" style="border: 1px solid black;"}
 
 ## 
 
@@ -787,39 +781,36 @@ See courses and workshops [here](https://www.tudelft.nl/en/library/research-data
 
 Project organisation - give it some thought
 
-- documentation
-- code notebooks
-- lab notebooks
-- version control
+-   documentation
+-   code notebooks
+-   lab notebooks
+-   version control
 
 Data storage
 
-- security
-- backups
-- metadata standards for your field
+-   security
+-   backups
+-   metadata standards for your field
 
 ## Personal data {.scrollable}
 
 What is considered personal data?
 
-- "Personal Data" (GDPR, Article 4): any information relating to an identified or identifiable natural person
+-   "Personal Data" (GDPR, Article 4): any information relating to an identified or identifiable natural person
 
-- a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person
+-   a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person
 
 . . .
 
 ### Direct vs. indirect identifiers
 
-**Direct identifiers:** information that relates specifically to an individual such as the individual’s residence. 
+**Direct identifiers:** information that relates specifically to an individual such as the individual’s residence.
 
-- name, address, BSN or other identifying number or code, telephone number, e-mail address, biometric record
+-   name, address, BSN or other identifying number or code, telephone number, e-mail address, biometric record
 
 . . .
 
-**Indirect identifiers:** information that can be combined with other information to identify specific individuals
-a combination of gender, birth date, geographic indicator and other descriptors. 
-place of birth, race, religion, weight, activities, employment information, medical information, education information, and financial information
-
+**Indirect identifiers:** information that can be combined with other information to identify specific individuals a combination of gender, birth date, geographic indicator and other descriptors. place of birth, race, religion, weight, activities, employment information, medical information, education information, and financial information
 
 ## Working with personal data {.center}
 
@@ -829,9 +820,9 @@ Anyone working with human participants will have to submit an application to the
 
 For the application you will need to:
 
-- Create an [informed consent form](https://www.tudelft.nl/over-tu-delft/strategie/integriteitsbeleid/human-research-ethics/informed-consent-templates-and-guide)
-- Fill out the [HREC checklist](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/Integriteitsbeleid/11_HRX-checklist%20for%20human%20research.docx)
-- Create a Data Management Plan using the TUDelft template
+-   Create an [informed consent form](https://www.tudelft.nl/over-tu-delft/strategie/integriteitsbeleid/human-research-ethics/informed-consent-templates-and-guide)
+-   Fill out the [HREC checklist](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/Integriteitsbeleid/11_HRX-checklist%20for%20human%20research.docx)
+-   Create a Data Management Plan using the TUDelft template
 
 ## Working with personal data {.center}
 
@@ -851,8 +842,8 @@ Data should be stored in a secure location (e.g. Project Drive)
 
 Informed consent forms should be securely stored
 
-- paper forms: locked storage
-- digital forms: encrypted and separated from the other personal data
+-   paper forms: locked storage
+-   digital forms: encrypted and separated from the other personal data
 
 ## Working with personal data {.center}
 
@@ -860,17 +851,16 @@ Informed consent forms should be securely stored
 
 **Pseudonymisation:** assign a unique participant number to each participant on the corresponding informed consent form or a separate key document. Use participant number (not their names), during data collection & analysis. This is not anonymization, since it is possible to trace each unique participant number to the corresponding participant.
 
-- Key document needs to be stored in a separate and secure location (e.g. with the informed consent forms).
+-   Key document needs to be stored in a separate and secure location (e.g. with the informed consent forms).
 
 . . .
 
-**Anonymisation:** Full anonymization is often difficult to achieve. It might be still possible to identify a specific individual by putting together indirect identifiers. Easier to achieve by data aggregation. 
-
+**Anonymisation:** Full anonymization is often difficult to achieve. It might be still possible to identify a specific individual by putting together indirect identifiers. Easier to achieve by data aggregation.
 
 # After the Project {background-color="#00A6D6" background-image="img/archive-or-publish.jpg" background-position="right" background-size="56%"}
 
 ::: {style="position: fixed; font-size: x-small; font-weight: lighter; bottom: 0; right: 0;"}
-This illustration is created by Scriberia with The Turing Way community.  
+This illustration is created by Scriberia with The Turing Way community.\
 Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 :::
 
@@ -878,8 +868,7 @@ Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10
 
 {{< include _archiving-policy.md >}}
 
-## Publishing data/code 
-
+## Publishing data/code
 
 > Data are available upon request to corresponding author.
 
@@ -887,16 +876,15 @@ Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10
 
 ![GIPHY](https://media.giphy.com/media/5fBH6zf7l8bxukYh74Q/giphy.gif)
 
-
 ## Publishing data
 
 ### Be FAIR
 
 ![](img/FAIRdataprinciples_foster.png){height="250"}
 
-**F**indable - persistent identifier (e.g. DOI) and detailed metadata  
-**A**ccessible - long-term accessibility of data (or just metadata if restricted)  
-**I**nteroperable - non-proprietary file formats  
+**F**indable - persistent identifier (e.g. DOI) and detailed metadata\
+**A**ccessible - long-term accessibility of data (or just metadata if restricted)\
+**I**nteroperable - non-proprietary file formats\
 **R**eusable - proper documentation and clear license
 
 ::: {style="position: fixed; font-size: x-small; font-weight: lighter; bottom: 0; right: 0;"}
@@ -909,9 +897,9 @@ Image: https://book.fosteropenscience.eu/
 
 ![](img/care-principles.png){width="250px"}
 
-[**C**ollective benefit - inclusive development and equitable outcomes]{.fragment}  
-[**A**uthority to control - Rights, interests, and governance]{.fragment}  
-[**R**esponsibility - respect, reciprocity, and trust]{.fragment}  
+[**C**ollective benefit - inclusive development and equitable outcomes]{.fragment}\
+[**A**uthority to control - Rights, interests, and governance]{.fragment}\
+[**R**esponsibility - respect, reciprocity, and trust]{.fragment}\
 [**E**thics - minimising harm and maximising benefit]{.fragment}
 
 ::: {style="position: fixed; font-size: x-small; font-weight: lighter; bottom: 0; right: 0;"}
@@ -924,11 +912,11 @@ https://www.gida-global.org/care
 
 Are the data suitable for sharing?
 
-- Personal data
-- Commercially confidential data
-- Data belonging to third parties 
-- Other types of confidential data 
-- Data too large to be published online in a repository
+-   Personal data
+-   Commercially confidential data
+-   Data belonging to third parties
+-   Other types of confidential data
+-   Data too large to be published online in a repository
 
 ## Publishing data
 
@@ -946,24 +934,24 @@ As a general rule, TU Delft owns all research data generated by employees at TU 
 
 But funder of the project (either public or commercial) might impose ownership conditions.
 
-Check whether existing relevant documents, such as grant/consortium agreement etc., specify: 
+Check whether existing relevant documents, such as grant/consortium agreement etc., specify:
 
-- Who is allowed to use the data?
-- Can the data be made publicly available?
-- What is the publication procedure?
-- The [faculty contract managers](https://intranet.tudelft.nl/-/faculty-contract-management) can advise on these agreements
+-   Who is allowed to use the data?
+-   Can the data be made publicly available?
+-   What is the publication procedure?
+-   The [faculty contract managers](https://intranet.tudelft.nl/-/faculty-contract-management) can advise on these agreements
 
 ## Publishing software {background-image="img/software-license-compatibility.png" background-position="95% 50%" background-size="40%"}
 
 ### TU Delft policy on research software
 
-- Can it be made open source?
-  + If yes, TU Delft transfers copyright to you
-  + If no, contact your data steward
-- Apply pre-approved open source license
-- Publish the software (e.g. GitHub/Lab + 4TU for DOI)
-- Register software with [PURE](https://pure.tudelft.nl/admin)
-  + If published in 4TU.ResearchData, this is done automatically
+-   Can it be made open source?
+    -   If yes, TU Delft transfers copyright to you
+    -   If no, contact your data steward
+-   Apply pre-approved open source license
+-   Publish the software (e.g. GitHub/Lab + 4TU for DOI)
+-   Register software with [PURE](https://pure.tudelft.nl/admin)
+    -   If published in 4TU.ResearchData, this is done automatically
 
 ::: {style="position: fixed; font-size: x-small; font-weight: lighter; bottom: 0; right: 0;"}
 Bazuine, Merlijn. (2021). TU Delft Guidelines on Research Software: Licensing, Registration and Commercialisation. Zenodo. <https://doi.org/10.5281/zenodo.4629635>
@@ -975,38 +963,32 @@ Bazuine, Merlijn. (2021). TU Delft Guidelines on Research Software: Licensing, R
 
 Can co-exist (e.g. RStudio, NextCloud, ownCloud, Linux distros)
 
-- Software is open source, maintenance and support is profitable
-- Free for individuals, commercial licenses
-- Free basic model, proprietary advanced usage
+-   Software is open source, maintenance and support is profitable
+-   Free for individuals, commercial licenses
+-   Free basic model, proprietary advanced usage
 
 # What's Next?
 
-:::: {.columns}
-
+::: columns
 ::: {.column .nonincremental}
 [**Part 1**]{style="opacity: 0.3;"}
 
-- [Intro to research data management]{style="opacity: 0.3;"}
-    + [policy requirements]{style="opacity: 0.3;"}
-    + [processing personal data]{style="opacity: 0.3;"}
-- [Hands-on experience with DMP(online)]{style="opacity: 0.3;"}
-
+-   [Intro to research data management]{style="opacity: 0.3;"}
+    -   [policy requirements]{style="opacity: 0.3;"}
+    -   [processing personal data]{style="opacity: 0.3;"}
+-   [Hands-on experience with DMP(online)]{style="opacity: 0.3;"}
 
 **Part 2**
 
-- [Applying what you learned]{.fragment}
-- [Discussing with supervisor (and data steward) and completing the DMP]{.fragment}
-
+-   [Applying what you learned]{.fragment}
+-   [Discussing with supervisor (and data steward) and completing the DMP]{.fragment}
 :::
 
-::: {.column}
-
+::: column
 **Part 3**
 
-- Summary of part 1
-- Re-evaluation of DMPs
-- Archiving and publishing data and code
-
+-   Summary of part 1
+-   Re-evaluation of DMPs
+-   Archiving and publishing data and code
 :::
-::::
-
+:::
