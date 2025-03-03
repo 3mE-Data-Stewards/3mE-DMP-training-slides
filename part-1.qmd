@@ -1,8 +1,11 @@
 ---
-subtitle: 3me PhD students - Part 1
+subtitle:  |
+  ME PhD students - Part 1  
+  
+  *Slides are available at <span style="color: orange;">https://doi.org/10.5281/zenodo.7298877</span>*
 format: 
-    revealjs: 
-        footer: <https://doi.org/10.5281/zenodo.7908034> # change as new versions are rendered and archived
+    revealjs: {}
+
 ---
 
 # Overview
@@ -20,6 +23,8 @@ format:
 ![](https://filelist.tudelft.nl/_processed_/2/a/csm_avatar_a441d85745.webp){width="241"}
 
 [Bjørn Bartholdy](https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact/bjoern-bartholdy)
+
+
 :::
 :::
 
@@ -108,38 +113,21 @@ Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10
 
 ![GIPHY](https://media1.giphy.com/media/xUySTOigOUHucl3rfW/giphy.gif?cid=6c09b952aa584b9ad189768339670b60fc66db2bc4abca39&rid=giphy.gif&ct=g "title")
 
-## The plan!
+## Research data lifecycle
 
-```{dot}
-digraph G {
+![](img/research-lifecycle.png){fig-align="center"}
 
-    subgraph cluster_0 {
-        color=darkgrey;
-        style=filled;
-        fillcolor=lightgrey
-        node [label="test"] D;
-        node [label="test2"] B;
-        node [label="test3"] C;
+## Research data lifecycle
 
-        label = "Analysis"
+![](img/planning.png){fig-align="center"}
 
-    }
+## Research data lifecycle
 
-  A [label="Conceptualisation"]
-  B [label="Documentation" shape=note]
-  C [label="Data Storage" shape=cylinder]
-  D [label="Version control"]
-  E [label="Backups" shape=box]
-  F [label="Publication"]
-  G [label="Security"]
-  H [label="DMP"]
-  
-  A -> H -> {C,D,B} -> F
-  C -> E
-  C -> G
+![](img/collecting.png){fig-align="center"}
 
-}
-```
+## Research data lifecycle
+
+![](img/publishing.png){fig-align="center"}
 
 ## Data management plan (DMP)
 
@@ -226,8 +214,8 @@ Need more computing power?
 
 | Location           | Storage | Access                             | Suitable for confidential data? |
 |--------------------|---------|------------------------------------|---------------------------------|
-| SURFDrive          | 1 TB    | Just you (can share files/folders) | No                              |
-| Microsoft OneDrive | 1 TB    | Just you (can share files/folders) | No                              |
+| SURFDrive          | 1 TB    | Just you (can share files/folders) | Yes                             |
+| Microsoft OneDrive | 1 TB    | Just you (can share files/folders) | Yes                             |
 
 ## Project Drive storage {.scrollable}
 
@@ -235,7 +223,7 @@ Need more computing power?
 
 TU Delft ICT Network Drive
 
--   reugular backups
+-   regular backups
     -   standard: 14 days retention
     -   high: 14 days + 53 weeks with redundancy (upon request)
 
@@ -263,7 +251,7 @@ Pros:
 
 Accessed through [eduVPN](https://www.tudelft.nl/en/it-manuals/vpn/)
 
-or
+and
 
 [WebDrive/WebDav Web links](https://webdata.tudelft.nl/)
 
@@ -533,13 +521,21 @@ conda_environment.yml
 
 There are many pre-existing templates out there that can help you
 
-Just be consistent and transparent
+![](img/data-organisation.png)
+
+[from DATACC](data.4tu.nl/info/en/use/publish-cite/upload-your-data-in-our-data-repository/licencing){style="font-size: x-small;"}
+
+## Project templates {.scrollable}
+
+There are many pre-existing templates out there that can help you
+
+Just be consistent and transparent!
 
 ## File naming
 
 I know, I know, could there BE a more boring topic...
 
-It is pretty essential, though. Follow these rules and she'll be right 👍:
+It is pretty essential, though. Follow these rules and it'll be right 👍:
 
 -   Use dates where applicable: YYYY-MM-DD (ISO 8601 format)
     -   Use them at the beginning of the file name so it arranges by date
