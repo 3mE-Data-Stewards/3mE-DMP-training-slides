@@ -3,8 +3,7 @@ subtitle:  |
   ME PhD students - Part 1  
   
   *Slides are available at <span style="color: orange;">https://doi.org/10.5281/zenodo.7298877</span>*
-format: 
-    revealjs: {}
+output: revealjs::revealjs_presentation
 
 ---
 
@@ -988,3 +987,9 @@ Can co-exist (e.g. RStudio, NextCloud, ownCloud, Linux distros)
 -   Archiving and publishing data and code
 :::
 :::
+```{r}
+#quarto::quarto_render("part-1.qmd")
+```
+
+
+
