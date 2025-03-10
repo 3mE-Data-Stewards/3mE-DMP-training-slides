@@ -2,7 +2,7 @@
 
 Introduction to research data management for PhD students at the 3mE faculty.
 
-The course website can be found here: <https://3me-dmp-training.netlify.app/>
+The course website can be found here: <https://rdm-me.netlify.app/docs/phd-training/>
 
 The slides can be rendered using:
 
